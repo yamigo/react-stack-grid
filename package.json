@@ -16,7 +16,7 @@
     "docs:build": "webpack -p --config docs/webpack.config.production.js",
     "docs:deploy": "npm run docs:build && gh-pages -d docs",
     "prebuild": "npm run clean",
-    "preinstall": "npm install && npm run build"
+    "preinstall": "npm run build"
   },
   "repository": {
     "type": "git",
